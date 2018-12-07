@@ -4236,3 +4236,15 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .ql-editor {
     background-color:#1F1F1F;
 }
+
+.p-flexpane_header {
+    background-color:#1F1F1F;
+}
+
+.p-download_item__link--show {
+    background-color:#1F1F1F;
+}
+
+.p-downloads_list__shift_hint {
+    background: #1F1F1F;
+}
