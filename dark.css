@@ -4266,7 +4266,7 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 }
 
 .c-button-unstyled {
-    background-color #222!important;
+    background-color: #222!important;
 }
 
 .ql-editor {
