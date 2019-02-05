@@ -4261,6 +4261,14 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
     background: #181818;
 }
 
-.p-threads_footer__input .p-message_input_field {
+.p-threads_footer__input {
     background-color: #222!important;
-} /* thread reply */
+}
+
+.c-button-unstyled {
+    background-color #222!important;
+}
+
+.ql-editor {
+    background-color:#222!important;
+}
