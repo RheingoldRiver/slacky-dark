@@ -4272,3 +4272,11 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 .ql-editor {
     background-color:#222!important;
 }
+
+.p-threads_flexpane__header {
+ background-color:#222!important; 
+}
+
+.p-threads_footer__input .p-message_input_field {
+ background-color:#222!important; 
+}
