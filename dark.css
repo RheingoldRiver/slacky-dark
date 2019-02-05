@@ -4260,3 +4260,7 @@ ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highligh
 ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) {
     background: #181818;
 }
+
+.p-threads_footer__input .p-message_input_field {
+    background-color: #222;
+} /* thread reply */
