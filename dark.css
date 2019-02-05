@@ -4262,5 +4262,5 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 }
 
 .p-threads_footer__input .p-message_input_field {
-    background-color: #222;
+    background-color: #222!important;
 } /* thread reply */
