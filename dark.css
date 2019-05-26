@@ -4320,3 +4320,32 @@ background-color:#2D2D2D;
   color:#61AF28!important;
   font-weight:bold!important;
 }
+
+/* preferences window */
+.c-label,
+.c-fullscreen_modal__body, .c-fullscreen_modal__body--full_bleed, .c-fullscreen_modal__body--with_header,
+.c-fullscreen_modal__header {
+    background-color:#2D2D2D;
+    color:white;
+}
+
+.p-prefs_modal__radiogroup .p-prefs_modal__radio_decorator,
+.p-prefs_modal__radiogroup label.p-prefs_modal__radiogroup--selected {
+    background-color:black;
+}
+
+.c-sidebar_menu__list_item {
+    color:white
+}
+
+.c-select_button {
+    background-color:black ;
+}
+
+.c-select_options_list__wrapper {
+    background-color:black;
+}
+
+.c-select_options_list__option {
+    color:white;
+}
