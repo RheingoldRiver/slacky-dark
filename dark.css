@@ -4350,3 +4350,15 @@ background-color:#2D2D2D;
 .c-select_options_list__option {
     color:white;
 }
+
+/* Make guest badges dark themed */
+.c-avatar__badge--restricted {
+    background: #222;
+}
+.c-avatar__badge--ultra_restricted:before {
+    border-bottom-color: #222;
+}
+.c-avatar__badge--ultra_restricted .c-avatar__badge_inner:before,
+.c-avatar__badge--ultra_restricted .c-avatar__badge_inner:after {
+    box-shadow: inset 2px -1px #222;
+}
