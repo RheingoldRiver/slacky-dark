@@ -1297,7 +1297,7 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .c-message__reply_bar:hover .c-message__reply_bar_arrow, .c-message__reply_bar--focus .c-message__reply_bar_arrow { color: #949494; }
 
-.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: #545454; }
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: transparent; }
 
 .c-message__reply_bar_description { color: #949494; }
 
@@ -4367,4 +4367,13 @@ button.c-button-unstyled.p-message_input_file_button {
 .c-avatar__badge--ultra_restricted .c-avatar__badge_inner:before,
 .c-avatar__badge--ultra_restricted .c-avatar__badge_inner:after {
     box-shadow: inset 2px -1px #222;
+}
+
+.p-threads_footer__broadcast_controls_inner label {
+    background: none;
+}
+.c-icon_button--light,
+.c-icon_button--light.c-button-unstyled,
+.c-icon_button--light:link {
+    color: unset;
 }
