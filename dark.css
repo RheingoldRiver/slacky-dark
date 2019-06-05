@@ -1705,6 +1705,10 @@ body > pre { background: #828282; }
 
 .p-threads_view__divider_line { border-top-color: #222; }
 
+.c-virtual_list__item, .c-virtual_list__sticky_container { background: #222; }
+
+.p_threads_view_load_newer_button, .p_threads_view_load_older_button { background: #222; }
+
 .p-threads_view__default_background { background: #222; }
 
 .p-threads_view__divider_label { background: #222; }
