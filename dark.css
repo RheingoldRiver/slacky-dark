@@ -4195,7 +4195,7 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 /* style search */
 
-.c-search__tabs, c-tabs__tab_menu, .c-search__view {
+.c-search__tabs, .c-tabs__tab_menu, .c-search__view, .c-search {
     background-color:#222222;
 }
 
@@ -4220,7 +4220,8 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
     background-color:#222;
 }
 
-.c-button-unstyled:hover {
+.c-button-unstyled:hover,
+.p-channel_sidebar__section_heading:hover {
     color:white;
     background-color: #222 !important;
 }
@@ -4264,9 +4265,9 @@ button.c-button-unstyled.p-message_input_file_button {
 
 .c-pillow_file__title { color:white;}
 
-.ql-editor {
+/*.ql-editor {
     background-color:#1F1F1F;
-}
+}*/
 
 .p-flexpane_header {
     background-color:#1F1F1F;
@@ -4348,4 +4349,16 @@ background-color:#2D2D2D;
 
 .c-select_options_list__option {
     color:white;
+}
+
+/* Make guest badges dark themed */
+.c-avatar__badge--restricted {
+    background: #222;
+}
+.c-avatar__badge--ultra_restricted:before {
+    border-bottom-color: #222;
+}
+.c-avatar__badge--ultra_restricted .c-avatar__badge_inner:before,
+.c-avatar__badge--ultra_restricted .c-avatar__badge_inner:after {
+    box-shadow: inset 2px -1px #222;
 }
