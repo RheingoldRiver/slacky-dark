@@ -37,21 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 ```
 
-Since alienator's is often but not always strictly ahead of mine, I recommend instead the following:
-
-```javascript
-document.addEventListener('DOMContentLoaded', function() {
-	var urls = ['https://raw.githubusercontent.com/RheingoldRiver/misc_settings/master/slack_extra_styles.css', 'https://raw.githubusercontent.com/alienator88/slacky-dark/master/dark.css'];
-	$.each(urls, function(i,url){
-		$.ajax({url: url, success: function(css){
-				$("<style></style>").appendTo('body').html(css);
-			}
-		});
-	});
-});
-```
-but I'll try to keep this relatively current too
-
 5. After save, restart Slack. If any issues are seen with the sidebar colors not showing correct, set your custom theme like this:
 
 ![image](https://user-images.githubusercontent.com/6263626/45648214-08737080-ba85-11e8-97a9-9a6b9aa8f5cb.png)
