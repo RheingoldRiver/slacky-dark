@@ -1703,6 +1703,12 @@ body > pre { background: #828282; }
 
 #threads_msgs_scroller_div.loading::before { color: #e6e6e6; }
 
+.p-threads_view__divider_line { border-top-color: #222; }
+
+.p-threads_view__default_background { background: #222; }
+
+.p-threads_view__divider_label { background: #222; }
+
 #threads_view_banner.messages_banner { background: #363636; }
 
 #threads_view_banner.messages_banner:hover { background: #545454; }
