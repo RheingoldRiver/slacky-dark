@@ -4377,3 +4377,7 @@ button.c-button-unstyled.p-message_input_file_button {
 .c-icon_button--light:link {
     color: unset;
 }
+
+#team_tab #member_preview_scroller .member_details .member_name {
+    color: white;
+}
