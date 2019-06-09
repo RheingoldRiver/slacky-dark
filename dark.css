@@ -4381,3 +4381,8 @@ button.c-button-unstyled.p-message_input_file_button {
 #team_tab #member_preview_scroller .member_details .member_name {
     color: white;
 }
+
+.c-app_badge {
+    color: rgba(230, 226, 230, 0.7);
+    background-color: rgba(239, 232, 239, 0.13);
+}
