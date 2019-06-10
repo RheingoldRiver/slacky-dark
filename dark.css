@@ -4386,3 +4386,10 @@ button.c-button-unstyled.p-message_input_file_button {
     color: rgba(230, 226, 230, 0.7);
     background-color: rgba(239, 232, 239, 0.13);
 }
+
+.c-message_kit__file__meta {
+	color: unset;
+}
+.c-pillow_file__snippet__content .CodeMirror-code>div:before {
+    color: unset;
+}
