@@ -4393,3 +4393,7 @@ button.c-button-unstyled.p-message_input_file_button {
 .c-pillow_file__snippet__content .CodeMirror-code>div:before {
     color: unset;
 }
+
+.c-menu_item__button .c-menu_item__icon {
+    color: rgba(222, 218, 222, 0.7);
+}
