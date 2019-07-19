@@ -1,12 +1,9 @@
 # Slacky Dark
 Dark mode theme for Slack desktop clients
-```diff
-- ! New update with flatter look - 9/14/18
-- ! Changed ssb-interop.js code to append to body instead of head tag to overwrite custom theme settings - 9/17/18
-```
 
-# Preview
-![image](https://user-images.githubusercontent.com/6263626/45646513-cc3e1100-ba80-11e8-817c-368b6525f7df.PNG)
+##Post 4.0 Install Info
+https://old.reddit.com/r/Slack/comments/cexjol/slack_version_400_css_modifications_dark_theme/
+
 
 # Installing into Slack client
 ```javascript
