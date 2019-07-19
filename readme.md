@@ -1,7 +1,7 @@
 # Slacky Dark
 Dark mode theme for Slack desktop clients
 
-##Post 4.0 Install Info
+## Post 4.0 Install Info
 https://old.reddit.com/r/Slack/comments/cexjol/slack_version_400_css_modifications_dark_theme/
 
 
